@@ -12,8 +12,3 @@ pip install .
 docker build . -t recommender
 docker run recommender sh -c "python3.8 -m pytest"
 ```
-
-### References
-
-[BERT4Rec: Sequential Recommendation with Bidirectional
-Encoder Representations from Transformer](https://arxiv.org/abs/1904.06690)
