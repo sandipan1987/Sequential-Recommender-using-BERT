@@ -1,0 +1,10 @@
+data_source_zip: "https://files.grouplens.org/datasets/movielens/ml-latest-small.zip"
+data_file_path: "./Data/ml-latest-small"
+ratings_file_path: "./Data/ml-latest-small/ratings.csv"
+batch_size: 1000
+epochs: 200
+history_size: 120
+train_num_workers: 10
+val_num_workers: 10
+learning_rate: 0.0001
+dropout: 0.3
